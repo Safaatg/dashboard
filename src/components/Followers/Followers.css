@@ -1,0 +1,69 @@
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-very-dark-blue-bg);
+    
+
+} 
+
+.dashborad-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-dark-desaturated-blue-card-bg);
+    padding: 1.5rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    border-top-width: 0.3rem;
+    border-top-style: solid;
+    cursor: pointer;
+}
+
+.box h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: var(--color-white-text);
+}
+
+.box p {
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+    color: var(--color-dark-grayish-blue-text);
+}
+
+.box .box-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.box .box-top span {
+    font-size: 1.2rem;
+    color: var(--color-desaturated-blue-text);
+}
+
+.box .box-bottom {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box .box-bottom span {
+    font-size: 1.2rem;
+    color: var(--color-lime-green);
+    font-weight: 700;
+}
+
